@@ -104,6 +104,7 @@ body {
     background-color: #FFFFFF;
     color: #30B868;
 }
+
 /* 
 .hero-button .b:hover {
     background-color: ;
@@ -125,7 +126,7 @@ body {
 }
 
 .card-heading p {
-    font-size: 16px;
+    font-size: 14px;
     color: #627382;
 }
 
@@ -146,7 +147,7 @@ body {
 .common-card img {
     background-color: #f95555;
     border-radius: 50%;
-    padding: 8px; 
+    padding: 8px;
 }
 
 .common-card h5 {
@@ -161,8 +162,90 @@ body {
     color: #627382;
 }
 
+/* brain section */
+.brain-container {
+    background-color: aqua;
+    max-width: 90%;
+    margin: 70px auto 0;
+    display: flex;
+    /* justify-content: space-between; */
+    gap:5px;
+}
 
+/* .brain-container .brain-container-img{
+    padding: 0;
+} */
 
+.brain-container-txt {
+    margin: auto 0;
+}
+
+.brain-container-txt h6 {
+    font-size: 14px;
+    color: #30B868;
+    padding-bottom: 15px;
+}
+
+.brain-container-txt h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+.brain-container-txt p{
+    font-size: 14px;
+    color: #627382;
+    padding-bottom: 36px;
+}
+
+.brain-container-txt ul li{
+    font-size: 14px;
+    color: #001931;
+    line-height: 40px;
+}
+
+.brain-container-txt ul {
+    list-style-type: none;
+}
+
+/* Ready section */
+.ready-container{
+    max-width: 90%;
+    margin: 0 auto 70px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+.ready-container h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    color: #001931;
+}
+
+.ready-container p{
+    font-size: 14px;
+    color: #627382;
+}
+
+.ready-container button {
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: 0.5px solid rgba(255, 255, 255, 0.301);
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.ready-container button:hover {
+    background-color: #FFFFFF;
+    color: #30B868;
+    cursor: pointer;
+}
 
 
 
