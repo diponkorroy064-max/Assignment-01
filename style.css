@@ -247,5 +247,51 @@ body {
     cursor: pointer;
 }
 
+/* footer section */
+.footer-container{
+    max-width: 100%;
+    /* margin: 0 auto; */
+    background-color: #001931;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    /* margin: 120px auto 50px; */
+    /* kaj kore na */
+    background-color: aqua;
+}
+
+.footer-icon-txt{
+    margin: auto 0;
+}
+
+.footer-icon-txt h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon i{
+    background-color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 50%;
+}
+
+.lower-footer {
+    max-width: 90%;
+    margin: 0 auto;
+    /* margin: 80px auto 30px; */
+    /* kaj kore na */
+    text-align: center;
+    font-size: 14px;
+    color: #FAFAFA;
+}
 
 
