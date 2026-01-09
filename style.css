@@ -43,6 +43,7 @@ body {
 
 .header-btn button:hover {
     background-color: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.21);
     color: #30B868;
 }
 
@@ -72,7 +73,7 @@ body {
     color: #30B868;
     font-size: 16px;
     border-radius: 1000px;
-    margin: 0 400.5px 16px;
+    margin: 0 380px 16px;
 }
 
 .hero-container h1 {
@@ -88,6 +89,12 @@ body {
     margin: 0 80px 32px;
 }
 
+.hero-button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 .hero-button .btn {
     padding: 12px 16px;
     border-radius: 4px;
@@ -100,7 +107,24 @@ body {
     background-color: #30B868;
 }
 
+.hero-button #btn2 {
+    background-color: #30B868;
+}
+
+.hero-button #btn1 i{
+    font-size: 10px;
+}
+
+.hero-button #btn2 i {
+    font-size: 10px;
+}
+
 .hero-button #btn1:hover {
+    background-color: #FFFFFF;
+    color: #30B868;
+}
+
+.hero-button #btn2:hover {
     background-color: #FFFFFF;
     color: #30B868;
 }
@@ -169,7 +193,7 @@ body {
     margin: 70px auto 0;
     display: flex;
     /* justify-content: space-between; */
-    gap:5px;
+    gap: 5px;
 }
 
 /* .brain-container .brain-container-img{
@@ -186,23 +210,23 @@ body {
     padding-bottom: 15px;
 }
 
-.brain-container-txt h3{
+.brain-container-txt h3 {
     font-size: 40px;
     font-weight: bold;
     color: #001931;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
 }
 
-.brain-container-txt p{
+.brain-container-txt p {
     font-size: 14px;
     color: #627382;
-    padding-bottom: 36px;
+    padding-bottom: 20px;
 }
 
-.brain-container-txt ul li{
+.brain-container-txt ul li {
     font-size: 14px;
     color: #001931;
-    line-height: 40px;
+    line-height: 36px;
 }
 
 .brain-container-txt ul {
@@ -210,7 +234,7 @@ body {
 }
 
 /* Ready section */
-.ready-container{
+.ready-container {
     max-width: 90%;
     margin: 0 auto 70px;
     padding: 50px 30px;
@@ -219,14 +243,14 @@ body {
     border-radius: 12px;
 }
 
-.ready-container h3{
+.ready-container h3 {
     font-size: 35px;
     font-weight: bold;
     padding-bottom: 14px;
     color: #001931;
 }
 
-.ready-container p{
+.ready-container p {
     font-size: 14px;
     color: #627382;
 }
@@ -234,51 +258,60 @@ body {
 .ready-container button {
     padding: 12px 16px;
     background-color: #30B868;
-    border: 0.5px solid rgba(255, 255, 255, 0.301);
+    border-style: none;
     border-radius: 4px;
     color: #FFFFFF;
     margin-top: 24px;
     margin-bottom: 16px;
 }
 
+.ready-container button i{
+    font-size: 10px;
+}
+
 .ready-container button:hover {
     background-color: #FFFFFF;
     color: #30B868;
     cursor: pointer;
+    border: 0.5px solid rgba(0, 0, 0, 0.21);
 }
 
 /* footer section */
-.footer-container{
+.footer-container {
     max-width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     background-color: #001931;
+    display: flex;
+    /* justify-content: center; */
+    /* gap: 50px; */
+    flex-direction: column;
 }
 
-.upper-footer{
+.upper-footer {
     display: flex;
     justify-content: space-between;
+    gap: 760px;
     max-width: 90%;
-    /* margin: 120px auto 50px; */
-    /* kaj kore na */
-    background-color: aqua;
+    margin: 120px auto 0;
+    /* background-color: aqua; */
 }
 
-.footer-icon-txt{
-    margin: auto 0;
-}
 
-.footer-icon-txt h5{
+/* .footer-icon-txt {
+} */
+
+.footer-icon-txt h5 {
     font-size: 18px;
     color: #FFFFFF;
     padding-bottom: 12px;
 }
 
-.footer-icon{
+.footer-icon {
     display: flex;
     gap: 10px;
 }
 
-.footer-icon i{
+.footer-icon i {
     background-color: #FFFFFF;
     padding: 8px 8px;
     border-radius: 50%;
@@ -286,12 +319,10 @@ body {
 
 .lower-footer {
     max-width: 90%;
-    margin: 0 auto;
-    /* margin: 80px auto 30px; */
-    /* kaj kore na */
+    margin: 80px auto 30px;
     text-align: center;
     font-size: 14px;
     color: #FAFAFA;
+    border-top: 1px solid white;
+    padding: 20px 360px 10px;
 }
-
-
