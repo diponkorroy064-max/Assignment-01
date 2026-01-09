@@ -16,6 +16,9 @@ body {
     /* background-color: aqua;  */
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 16px 60px;
+
 }
 
 .header-nav ul {
@@ -24,17 +27,10 @@ body {
     list-style-type: none;
 }
 
-.header-container .header-img {
-    margin: 16px 0 16px 60px;
-}
-
-.header-container .header-btn {
-    margin: 24px 60px 24px 0;
-}
-
 .header-btn button {
     background-color: #30B868;
     font-size: 16px;
+    font-weight: 600;
     color: #FFFFFF;
     border-style: none;
     padding: 12px 16px;
@@ -59,11 +55,14 @@ body {
 }
 
 /* hero section */
-.hero-container {
+#hero {
     background-image: url('assets/hero-bg.png');
     max-width: 100%;
     margin: 0 auto;
-    padding: 115px 120px 179px;
+}
+
+.hero-container {
+    padding: 115px 130px 179px;
     text-align: center;
 }
 
@@ -72,24 +71,25 @@ body {
     background-color: #FFFFFF;
     color: #30B868;
     font-size: 16px;
+    font-weight: bolder;
     border-radius: 1000px;
-    margin: 0 380px 16px;
 }
 
 .hero-container h1 {
-    font-size: 65px;
+    font-size: 70px;
     font-weight: bold;
     color: #FFFFFF;
-    margin: 0 162px 16px;
+    margin-top: 22px;
+    margin-bottom: 16px;
 }
 
 .hero-container .hero-txt {
-    font-size: 18px;
+    font-size: 16px;
     color: #FFFFFF;
-    margin: 0 80px 32px;
+    margin-bottom: 32px;
 }
 
-.hero-button{
+.hero-button {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -111,28 +111,25 @@ body {
     background-color: #30B868;
 }
 
-.hero-button #btn1 i{
+.hero-button #btn1 i {
     font-size: 10px;
 }
 
 .hero-button #btn2 i {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .hero-button #btn1:hover {
-    background-color: #FFFFFF;
-    color: #30B868;
+    /* background-color: #FFFFFF; */
+    background-color: transparent;
+    /* color: #30B868; */
 }
 
 .hero-button #btn2:hover {
-    background-color: #FFFFFF;
-    color: #30B868;
+    /* background-color: #FFFFFF; */
+    background-color: transparent;
+    /* color: #30B868; */
 }
-
-/* 
-.hero-button .b:hover {
-    background-color: ;
-} */
 
 /* card section */
 .card-container {
@@ -156,7 +153,7 @@ body {
 
 .card-type {
     max-width: 90%;
-    margin: 44px auto;
+    margin: 44px auto 0;
     display: flex;
     justify-content: space-around;
     gap: 24px;
@@ -188,17 +185,13 @@ body {
 
 /* brain section */
 .brain-container {
-    background-color: aqua;
+    /* background-color: aqua;  */
     max-width: 90%;
-    margin: 70px auto 0;
+    margin: 0 auto;
+    padding: 120px 0;
     display: flex;
-    /* justify-content: space-between; */
-    gap: 5px;
+    gap: 40px;
 }
-
-/* .brain-container .brain-container-img{
-    padding: 0;
-} */
 
 .brain-container-txt {
     margin: auto 0;
@@ -236,8 +229,8 @@ body {
 /* Ready section */
 .ready-container {
     max-width: 90%;
-    margin: 0 auto 70px;
-    padding: 50px 30px;
+    margin: 0 auto;
+    padding: 0  0 70px;
     text-align: center;
     background-color: #F7F6F2;
     border-radius: 12px;
@@ -246,6 +239,7 @@ body {
 .ready-container h3 {
     font-size: 35px;
     font-weight: bold;
+    padding-top: 60px;
     padding-bottom: 14px;
     color: #001931;
 }
@@ -265,7 +259,7 @@ body {
     margin-bottom: 16px;
 }
 
-.ready-container button i{
+.ready-container button i {
     font-size: 10px;
 }
 
@@ -278,27 +272,18 @@ body {
 
 /* footer section */
 .footer-container {
+    background-color: #001931;
     max-width: 100%;
     margin: 0 auto;
-    background-color: #001931;
-    display: flex;
-    /* justify-content: center; */
-    /* gap: 50px; */
-    flex-direction: column;
+    padding: 70px 70px 30px;
 }
 
 .upper-footer {
     display: flex;
     justify-content: space-between;
-    gap: 760px;
-    max-width: 90%;
-    margin: 120px auto 0;
-    /* background-color: aqua; */
+    /* background-color: aqua;  */
+    margin-bottom: 60px;
 }
-
-
-/* .footer-icon-txt {
-} */
 
 .footer-icon-txt h5 {
     font-size: 18px;
@@ -308,21 +293,21 @@ body {
 
 .footer-icon {
     display: flex;
-    gap: 10px;
+    flex-direction: row;
+    gap: 16px;
 }
 
 .footer-icon i {
-    background-color: #FFFFFF;
-    padding: 8px 8px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 3px;
     border-radius: 50%;
 }
 
 .lower-footer {
-    max-width: 90%;
-    margin: 80px auto 30px;
     text-align: center;
     font-size: 14px;
     color: #FAFAFA;
-    border-top: 1px solid white;
-    padding: 20px 360px 10px;
+    border-top: 1px solid #E5E7EB;
+    padding-top: 30px;
 }
