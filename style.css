@@ -15,9 +15,9 @@ body {
     margin: 0 auto;
     /* background-color: aqua;  */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 16px 60px;
+    padding: 16px 0;
 }
 
 .header-nav ul {
@@ -42,9 +42,9 @@ body {
     color: #30B868;
 }
 
-.header-container .header-nav {
+/* .header-container .header-nav {
     margin: 34px 0;
-}
+} */
 
 .header-nav li a {
     text-decoration: none;
@@ -89,10 +89,12 @@ body {
 }
 
 .hero-container .hero-txt {
+    max-width: 700px;
+    margin: 0 auto;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 30px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .hero-button {
@@ -330,8 +332,6 @@ body {
     .card-type,
     .brain-container {
         flex-direction: column;
-        /* justify-content: center;
-            margin: 0 auto; */
     }
 
     .brain-container-img {
@@ -350,23 +350,55 @@ body {
 }
 
 /* section for min-width: 576px devices and max-width: 992px */
-@media screen and (min-width:576px) and (max-width:992) {
-    
+@media screen and (min-width:576px) and (max-width:992px) {
+    .brain-container {
+        flex-direction: column;
+    }
+
+    .header-container {
+        max-width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .hero-container {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .hero-container h1 {
+        font-size: 50px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero-container .hero-txt {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .header-btn button {
+        font-size: 10px;
+        font-weight: 500;
+        padding: 8px 12px;
+    }
+
+    .header-nav li a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .header-container .header-img img {
+        width: 70%;
+        /* margin-top: 10px; */
+    }
+
+    .card-heading h3 {
+        font-size: 34px;
+    }
+
+    .brain-container-img {
+        margin: 0 auto;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
