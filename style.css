@@ -56,12 +56,13 @@ body {
 /* hero section */
 #hero {
     background-image: url('assets/hero-bg.png');
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 .hero-container {
-    padding: 115px 130px 179px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 115px;
+    padding-bottom: 150px;
     text-align: center;
 }
 
@@ -72,7 +73,7 @@ body {
     font-size: 16px;
     font-weight: bolder;
     border-radius: 100px;
-    max-width: 300px;
+    max-width: 230px;
     margin: 0 auto;
 }
 
@@ -82,14 +83,15 @@ body {
     color: #FFFFFF;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
-    max-width: 800px;
+    padding-bottom: 30px;
+    max-width: 770px;
     margin: 0 auto;
 }
 
 .hero-container .hero-txt {
     font-size: 16px;
     color: #FFFFFF;
+    line-height: 30px;
     margin-bottom: 32px;
 }
 
@@ -135,7 +137,7 @@ body {
     /* color: #30B868; */
 }
 
-/* card section */
+/* card section related styles */
 .card-container {
     max-width: 100%;
     margin: 0 auto;
@@ -274,7 +276,7 @@ body {
     border: 0.5px solid rgba(0, 0, 0, 0.21);
 }
 
-/* footer section */
+/* footer section related styles*/
 .footer-container {
     background-color: #001931;
     max-width: 100%;
@@ -331,10 +333,40 @@ body {
         /* justify-content: center;
             margin: 0 auto; */
     }
-    
-    .brain-container-img img{
-        width: 100%;
-        /* height: 95%; */
+
+    .brain-container-img {
+        margin: 0 auto;
     }
 
+    .brain-container-img img {
+        width: 80%;
+    }
+
+    .hero-container,
+    .card-container,
+    .brain-container {
+        max-width: 80%;
+    }
 }
+
+/* section for min-width: 576px devices and max-width: 992px */
+@media screen and (min-width:576px) and (max-width:992) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
